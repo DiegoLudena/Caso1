@@ -12,7 +12,7 @@ public class Main extends Application{
         Parent root = FXMLLoader.load(getClass().getResource("Vista/DICaso1.fxml"));
         //Creo la escena
     	primaryStage.setTitle("Caso Práctico 1");
-        primaryStage.setScene(new Scene(root, 600, 600));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
 
